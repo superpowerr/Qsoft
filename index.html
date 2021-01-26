@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>QSoft test</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="head">
+        <div class="logo head__logo">
+          <img src="img/head__logo.svg" alt="Logo QSoft" class="head__image">
+        </div>
+        <div class="head-search">
+          <form class="head-search__form" action="#" method="#">
+            <input class="head-search__input" name="s" placeholder="Найти на сайте..." type="search">
+          </form>
+        </div>
+        <div class="head__contacts">
+          <a class="phone" href="tel:+74951234567">+7 (495) 123-45-67</a>
+          <span class="phone__description">Звоните с 8 до 23!</span>
+        </div>
+
+        <div class="header__user-block user-block">
+          <span class="user-block__icon"></span>
+        </div>
+
+        <button class="button button--blue
+        header__button">Войти</button>
+      </div>
+
+      <hr>
+      <nav class="nav head__nav">
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="#">Акции</a></li>
+          <li class="nav__item"><a href="#">Товары </a> </li>
+          <li class="nav__item"><a href="#">Доставка и оплата</a> </li>
+          <li class="nav__item"><a href="#">Гарантия</a> </li>
+          <li class="nav__item"><a href="#">О нас</a></li>
+          <li class="nav__item"><a href="#">Контакты</a> </li>
+        </ul>
+      </nav>
+      <hr>
+
+      <div class="popular-goods">
+
+        <h2 class="title popular-goods__title">Популярные товары</h2>
+
+        <div class="goods__wrapper">
+
+          <div class="goods__item">
+            <div class="goods__image">
+              <img src="img/flover.jpg" alt="">
+              <div class="labels__wrapper">
+                <div class="labels__item labels__item--yellow">Акция</div>
+                <div class="labels__item labels__item--red">Хит</div>
+                <div class="labels__item labels__item--purple">Лучшая цена</div>
+              </div>
+            </div>
+            <h3 class="goods__title"><a href="#" class="goods__link">Цветок, который стоит на столе, такой
+                загадочный.</a></h3>
+            <p class="goods__subtitle">А тут описание цветка, придающее ему загадочности и вызывающее интерес
+              пользователя</p>
+            <div class="goods__market">
+              <div class="goods__price-wrapper">
+                <span class="goods__old-price">1499</span>
+                <span class="goods__new-price">799</span>
+              </div>
+              <button class="button button--cart"></button>
+            </div>
+          </div>
+          <!-- end item -->
+
+          <div class="goods__item">
+            <div class="goods__image">
+              <img src="img/instablog.jpg" alt="">
+              <div class="labels__wrapper">
+                <div class="labels__item labels__item--yellow">Акция</div>
+              </div>
+            </div>
+            <h3 class="goods__title"><a href="#" class="goods__link">Набор юного инстаблогера</a></h3>
+            <p class="goods__subtitle">Посмотрите на него. Он&nbsp;покажет&nbsp;всем какой вы классный и творческий.
+              Главное не забыть посидеть на
+              подоконнике с бокаль...</p>
+            <div class="goods__market">
+              <div class="goods__price-wrapper">
+                <span class="goods__new-price">13 666</span>
+              </div>
+              <button class="button button--cart"></button>
+            </div>
+          </div>
+          <!-- end item -->
+
+          <div class="goods__item">
+            <div class="goods__image">
+              <img src="img/lamp.jpg" alt="">
+              <div class="labels__wrapper">
+                <div class="labels__item labels__item--red">Хит</div>
+              </div>
+            </div>
+            <h3 class="goods__title"><a href="#" class="goods__link">Лампа. Просто лампа.</a></h3>
+            <p class="goods__subtitle">В паре с загадочным цветком добавит загадочности вашему интерьеру
+            </p>
+            <div class="goods__market">
+              <div class="goods__price-wrapper">
+                <span class="goods__old-price">2699</span>
+                <span class="goods__new-price">1789</span>
+              </div>
+              <button class="button button--cart"></button>
+            </div>
+          </div>
+          <!-- end item -->
+
+          <div class="goods__item">
+            <div class="goods__image">
+              <img src="img/clock.jpg" alt="">
+              <div class="labels__wrapper">
+                <div class="labels__item labels__item--yellow">Акция</div>
+                <div class="labels__item labels__item--red">Хит</div>
+              </div>
+            </div>
+            <h3 class="goods__title"><a href="#" class="goods__link">Классные деревянные минималистичные часы с...</a>
+            </h3>
+            <p class="goods__subtitle">Все в ту же копилку загдочности вашего интерьера и вашей натуры</p>
+            <div class="goods__market">
+              <div class="goods__price-wrapper">
+                <span class="goods__old-price">2699</span>
+                <span class="goods__new-price">1899</span>
+              </div>
+              <button class="button button--cart"></button>
+            </div>
+          </div>
+          <!-- end item -->
+
+        </div>
+
+      </div>
+
+      <button class="button popular-goods__button button--white ">Смотреть каталог</button>
+
+    </div>
+
+    </div>
+  </header>
+
+  <div class="news-block">
+    <div class="container">
+      <h2 class="title news-block__headtitle">Новости компании</h2>
+      <div class="news-block__wrapper">
+        <div class="news-block__item news-block__item--small">
+          <div class="news-block__text">
+            <h3 class="news-block__title">Цветок, который стоит на столе, такой загадочный.</h3>
+            <p class="news-block__subtitle">А тут описание цветка, придающее ему загадочности и вызывающее интерес
+              пользователя</p>
+          </div>
+        </div>
+        <div class="news-block__item">
+          <div class="news-block__text news-block__text--big">
+            <h3 class="news-block__title news-block__title--big">Длинный заголовок большой новости</h3>
+            <p class="news-block__subtitle news-block__subtitle--big">А тут описание цветка, придающее ему загадочности
+              и вызывающее интерес пользователя</p>
+          </div>
+        </div>
+        <div class="news-block__item">
+          <div class="news-block__text news-block__text--big">
+            <h3 class="news-block__title news-block__title--big">Длинный заголовок большой новости</h3>
+            <p class="news-block__subtitle news-block__subtitle--big">А тут описание цветка, придающее ему загадочности
+              и вызывающее интерес пользователя</p>
+          </div>
+        </div>
+        <div class="news-block__item news-block__item--small">
+          <div class="news-block__text">
+            <h3 class="news-block__title">Цветок, который стоит на столе, такой загадочный.</h3>
+            <p class="news-block__subtitle">А тут описание цветка, придающее ему загадочности и вызывающее интерес
+              пользователя</p>
+          </div>
+        </div>
+      </div>
+      <button class="button news-block__button button--white ">Смотреть новости</button>
+    </div>
+  </div>
+
+  <div class="partners">
+    <div class="container">
+      <div class="partners__title title">Наши партнёры</div>
+      <div class="partners__wrapper">
+        <div class="partners__parent">
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--1"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--2"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--3"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--4"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--5"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--6"></a> </div>
+          <div class="partners__item"> <a href="#" class="partners__link partners__link--7"></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="logo footer__logo"></div>
+        <div class="social footer__social">
+          <ul class="list social__list">
+            <a href="#" class="social__item social__item--youtube" title="YouTube">
+              <li></li>
+            </a>
+            <a href="#" class="social__item social__item--instagram" title="Intagram">
+              <li></li>
+            </a>
+          </ul>
+        </div>
+        <div class="policy footer__policy">
+          <ul class="list policy__list">
+            <a href="#" class="policy__item">
+              <li>Правила</li>
+            </a>
+            <a href="#" class="policy__item">
+              <li>Документы</li>
+            </a>
+            <a href="#" class="policy__item">
+              <li>Политика конфиденциальности</li>
+            </a>
+          </ul>
+        </div>
+        <button class="button footer__button button--blue">Заказать звонок</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
